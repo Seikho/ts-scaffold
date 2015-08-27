@@ -22,6 +22,7 @@ npm install
  - `git remote set origin [new location]`
  - E.g.: `git remote set origin git@github.com:my-name/my-repo.git`
  - or `git remote set origin https://github.com/my-name/my-repo.git`
+- Remove or change this `readme.md`!!
 
 #### Type defintions
 For adding type definitions, I have included `tsd.json`.  

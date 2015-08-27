@@ -22,6 +22,11 @@ npm install
  - `git remote set origin [new location]`
  - E.g.: `git remote set origin git@github.com:my-name/my-repo.git`
  - or `git remote set origin https://github.com/my-name/my-repo.git`
+
+#### Type defintions
+For adding type definitions, I have included `tsd.json`.  
+I recommend the tool [tsd](https://github.com/DefinitelyTyped/tsd)  
+Install it globally using `npm install -g tsd`. See the above link for instructions.
  
 #### Building/Compiling
 **In VSCode:** (As defined in .settings/tasks.json)  

@@ -17,7 +17,7 @@ npm install
  - `keywords` (optional)
  - `author`
  - `bugs.url`
- - "homepage`
+ - `homepage`
 - Update the git remote "origin"
  - `git remote set origin [new location]`
  - E.g.: `git remote set origin git@github.com:my-name/my-repo.git`

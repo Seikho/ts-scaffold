@@ -1,0 +1,27 @@
+{
+  "name": "ts-scaffold",
+  "version": "0.1.0",
+  "description": "New Typescript Project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsglob && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seikho/ts-scaffold.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Carl Winkler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seikho/ts-scaffold/issues"
+  },
+  "homepage": "https://github.com/seikho/ts-scaffold#readme",
+  "devDependencies": {
+    "ts-globber": "^0.4.3",
+    "typescript": "^1.5.3"
+  }
+}

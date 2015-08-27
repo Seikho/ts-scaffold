@@ -26,5 +26,16 @@ git clone https://github.com/seikho/ts-scaffold
 `Ctrl+Shift+B`
 
 
-**On the command line:**
+**On the command line:**  
 `npm run build`
+
+#### Removing the commit history
+The simplest way is to delete the `.git/` folder and re-initialise the repository:
+```
+rm -rf .git/
+git init
+git add --all
+git commit -m "Initial commit"
+git remote add origin https://github.com/my-username/my-repo.git
+git push origin master
+```

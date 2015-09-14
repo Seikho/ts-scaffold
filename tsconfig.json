@@ -4,12 +4,5 @@
         "module": "commonjs",
         "sourceMap": true
     },
-    "filesGlob": [
-        "./src/**/*.ts",
-        "./test/**/*.ts"
-    ],
-    "files": [
-        "src/index.ts",
-        "src/typings/node/node.d.ts"
-    ]
+    "exclude": ["node_modules"]
 }

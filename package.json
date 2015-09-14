@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/seikho/ts-scaffold#readme",
   "devDependencies": {
-    "ts-globber": "^0.4.3",
-    "typescript": "^1.5.3"
+    "typescript": "1.6.0-beta"
   }
 }

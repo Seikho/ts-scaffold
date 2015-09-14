@@ -1,7 +1,11 @@
 {
 	"version": "0.1.0",
 
-	"command": "tsc",      
+	"command": "npm",
+    "args": [
+        "run",
+        "build"
+    ],       
 
 	// The command is a shell script
 	"isShellCommand": true,
